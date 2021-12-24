@@ -19,7 +19,7 @@ def mint():
         options.add_experimental_option("prefs", prefs)
         driver = webdriver.Chrome(executable_path=chrome_path, options=options)
 
-        driver.get("https://magiceden.io/launchpad/thirsty_cactus_garden_party")
+        driver.get("https://magiceden.io/launchpad/cyber_ape_age")
         driver.maximize_window()
         txt = open("login.txt", 'r')
         read_txt = txt.readlines()
